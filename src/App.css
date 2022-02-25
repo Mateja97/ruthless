@@ -1,0 +1,67 @@
+@media (max-width: 480px) {
+
+  .App-header{
+    top: 5%;
+    left: 0%;
+    height: 2%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+  }
+  .App-footer{
+    top: 94%;
+    left: 0%;
+    height: 2%;
+    width: 100%;
+    position: absolute;
+  }
+  .Footer-start{
+    display: none;
+  }
+  .Footer-end{
+    display: none;
+  }
+  #pc{
+    display: none;
+  }
+}
+@media (min-width: 481px) {
+  .App-header{
+    top: 5%;
+    left: 0%;
+    height: 2%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+  }
+  .App-footer{
+    top: 94%;
+    left: 0%;
+    height: 2%;
+    width: 100%;
+    position: absolute;
+  }
+  .Footer-start{
+    left: 6%;
+    width: 12%;
+    position: absolute;
+    font-family: 'MyFont';
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .Footer-end{
+    right: 6%;
+    width: 2%;
+    position: absolute;
+    font-family: 'MyFont';
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  #phone{
+    display: none;
+  }
+  @font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./Fonts/Montserrat.ttf) format('truetype');
+  }
+}
